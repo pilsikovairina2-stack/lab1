@@ -5,13 +5,13 @@ public class Main {
     public static PrintStream out = System.out;
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int x = in.nextInt(); // кол-во воды всего
-        int a = in.nextInt(); // объем первой ванночки
-        int b = in.nextInt(); // объем второй ванночки
-        int c = in.nextInt(); // объем третьей ванночки
-        int d = in.nextInt(); // объем четвертой ванночки
+        long x = in.nextLong(); // кол-во воды всего
+        long a = in.nextLong(); // объем первой ванночки
+        long b = in.nextLong(); // объем второй ванночки
+        long c = in.nextLong(); // объем третьей ванночки
+        long d = in.nextLong(); // объем четвертой ванночки
 
-        int k = 0; // кол-во полностью заполненных ванночек
+        byte k = 0; // кол-во полностью заполненных ванночек
         String r = ""; // номера заполненных ванночек
 
         // проверяем, заполнится ли ванна А
